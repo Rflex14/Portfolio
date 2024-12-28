@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+}
+.bold {
+  font-weight: 550;
+}
+.border {
+  text-shadow: 0.5px 0.5px 2px rgb(208, 144, 106), -0.5px -0.5px 2px rgb(208, 144, 106), 0.5px -0.5px 2px rgb(208, 144, 106), -0.5px 1px 2px rgb(208, 144, 106);
+}
+.border-whitebg {
+  text-shadow: 0.5px 0.5px 0.5px rgb(208, 144, 106), -0.5px -0.5px 0.5px rgb(208, 144, 106), 0.5px -0.5px 0.5px rgb(208, 144, 106), -0.5px 0.5px 0.5px rgb(208, 144, 106);
+}
+.indent {
+  margin-left: 1em;
+}
+.whitebg {
+  background-color: white;
+  padding: 0 5px;
+  margin-bottom: -10px;
+}
+header {
+  font-size: 1.2em;
+  margin-top: 0;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+  width: 100%;
+  background-color: black;
+}
+#img-div {
+  display: flex;
+  margin: inherit;
+  width: 100%;
+  padding-top: 10px;
+  justify-content: center;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+}
+#img-caption, h1 {
+  display: none;
+}
+nav {
+  color: white;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: inherit;
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+  list-style: none;
+}
+@media (width >= 692px) {
+  
+  header li{
+    margin: 0 2em;
+  }
+}
+@media (width < 692px) {
+  header li{
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  header{
+    padding-bottom: 0px;
+  }
+  #last-li {
+    margin-bottom: 10px;
+  }
+}
+#tribute-info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+}
+.info {
+  color: black;
+  border: none;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0.5px 0.5px 2px 1px rgb(208, 144, 106), -0.5px -0.5px 2px 1px rgb(208, 144, 106), 0.5px -0.5px 2px 1px rgb(208, 144, 106), -0.5px 1px 2px 1px rgb(208, 144, 106);
+  border-radius: 0.6em;
+}
+p {
+  text-align: justify;
+}
+fieldset ul {
+  margin-left: -1em;
+  text-align: justify;
+}
+fieldset li {
+  margin-bottom: 1em;
+ }
+
+
+/* - Footer -*/
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+address {
+  font-size: 1.2em;
+  font-style: normal;
+  text-align: center;
+  margin: 0.5em 0 1em 0;
+}
+footer > div {
+  font-size: 0.8em;
+  font-style: italic;
+}
